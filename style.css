@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  background-image: url(https://www.furycat.com/images/snorkel-key-west-combo-page.jpg);
+}
+
+#clock {
+  font-size: 14em;
+  color: #3498db;
+  cursor: pointer;
+  transition: color 0.5s ease-in-out;
+}
+
+#clock:hover {
+  color: #e74c3c;
+}
+
+#data {
+  font-size: 12em;
+  color: #f2f4f6;
+}
+
+@media only screen and (max-width: 600px) {
+  #data {
+    font-size: 6em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #clock {
+    font-size: 8em;
+  }
+}
