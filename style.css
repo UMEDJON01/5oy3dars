@@ -27,12 +27,12 @@ body {
 
 @media only screen and (max-width: 600px) {
   #data {
-    font-size: 6em;
+    font-size: 4em;
   }
 }
 
 @media only screen and (max-width: 600px) {
   #clock {
-    font-size: 8em;
+    font-size: 6em;
   }
 }
